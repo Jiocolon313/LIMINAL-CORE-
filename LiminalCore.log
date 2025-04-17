@@ -1,0 +1,96 @@
+---- qbsp / ericw-tools 2.0.0-alpha8-64-gbbe39c7c ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: C:\quake-leveldesign-starterkit-20241231-windows\tools\ironwail\id1\maps\LIMINAL-CORE-\LiminalCore-compile.map
+Output file: C:\quake-leveldesign-starterkit-20241231-windows\tools\ironwail\id1\maps\LIMINAL-CORE-\LiminalCore.bsp
+
+INFO: using built-in palette.
+fs::addArchive: WARNING: archive '../../../../../quake-leveldesign-starterkit-20241231-windows/extras/quake/wads/ik2k.wad' not found
+WARNING: No valid WAD filenames in worldmodel
+      2 entities
+      8 unique textures
+    218 texinfos
+    492 unique planes
+
+INFO: world extents calculated to 1608 units
+    115 brushes
+    714 sides
+    186 side bevels
+
+            0 texture frames added
+WARNING: unable to find texture skip
+WARNING: unable to find texture __TB_empty
+WARNING: unable to find texture stetile4_s
+WARNING: unable to find texture labflush03
+WARNING: unable to find texture labflush01
+WARNING: unable to find texture reactorfloor2a
+WARNING: unable to find texture si_st_m4
+WARNING: unable to find texture +0ik_pad_br128b
+Processing hull 0...
+    115 SOLID brushes
+    115 brushes total
+    714 visible sides
+INFO: calculating BSP for 115 brushes with 714 sides
+    115 brushes
+    714 visible faces
+    3,767 nodes
+    3,331 expensive split nodes
+      436 mid-split nodes
+    3,768 leaves
+    1,563 EMPTY leafs
+    2,205 SOLID leafs
+    3,768 leafs total
+    31 max tree height
+    17 avg tree height
+    425 tiny portals
+    13,508 tree portals
+WARNING: Reached occupant "info_player_start" at (160 272 40), no filling performed.
+Leak file written to LiminalCore.pts
+            7 portals written to LiminalCore.leak.prt
+    425 tiny portals
+    13,508 tree portals
+    3,372 sides visible
+    3,372 makefaces
+      476 merged
+      282 subdivided
+    589 nodes pruned
+    1,563 EMPTY leafs
+    1,616 SOLID leafs
+    3,179 leafs total
+    31 max tree height
+    17 avg tree height
+    1,260 edges added by tjunctions
+    3,118 faces optimized through MWT
+    7,520 triangles computed from MWT
+      303 faces created via optimization of MWT triangles
+    7,492 edges
+    3,481 faces
+Processing hull 1...
+WARNING: Reached occupant "info_player_start" at (160 272 40), no filling performed.
+Processing hull 2...
+WARNING: No entities in empty space -- no filling performed (hull 2)
+Writing LiminalCore.bsp as Quake BSP bsp29
+Wrote LiminalCore.bsp
+
+count   lump name    byte size 
+      1 models               64
+    832 planes            16640
+   3860 vertexes          46320
+   3178 nodes             76272
+    164 texinfos           6560
+   3481 faces             69620
+  15662 clipnodes        125296
+   1564 leafs             43792
+   3732 marksurfaces       7464
+   7493 edges             29972
+  14542 surfedges         58168
+      8 textures             36
+        lightdata             0
+        visdata               0
+        entdata             203
+
+0.337s seconds elapsed
+
+
